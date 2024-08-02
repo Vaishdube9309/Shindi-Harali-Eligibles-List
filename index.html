@@ -3,42 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>Webpage Design</title>
     <style>
         body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh; /* Full viewport height */
+            font-family: 'Arial, sans-serif';
+            background-color: #f8f9fa;
             margin: 0;
-            font-family: Arial, sans-serif;
-            text-align: center;
+            padding: 0;
         }
-
-        .btn {
-            background-color: #4CAF50; /* Green */
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 8px;
-            transition: background-color 0.3s;
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-
-        .btn:hover {
-            background-color: #45a049;
+        .card {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .card p {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .card span {
+            font-size: 24px;
         }
     </style>
 </head>
 <body>
-    <h1>Shindi Harali Eligibles List</h1>
-    <p>Click the button below :</p>
-    <button class="btn" onclick="window.open('https://script.google.com/macros/s/AKfycbw0cYPD23-FBfK7WmJeaGkLMS__GD_gGJBnnrkoQbg/dev', '_blank')">Open Google Apps Script Web App</button>
+    <div class="container">
+        <div class="card">
+            <p>स्थापना - <span>१९६९</span></p>
+        </div>
+        <div class="card">
+            <p>एकूण घरे - <span>३९५</span></p>
+        </div>
+        <div class="card">
+            <p>लोकसंख्या - <span>१३३१ (२०२१)</span></p>
+        </div>
+        <div class="card">
+            <p>मतदार संख्या - <span>८५५</span></p>
+        </div>
+        <div class="card">
+            <p>स्वच्छतागृहे -</p>
+        </div>
+        <div class="card">
+            <p>दारिद्र्य रेषेखालील कुटुंब -</p>
+        </div>
+    </div>
 </body>
 </html>
